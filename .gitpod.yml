@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup pixi
+    init: |
+      curl -fsSL https://pixi.sh/install.sh | sh
+      pixi add modular
