@@ -1,8 +1,0 @@
-tasks:
-  - name: Install Pixi & Mojo
-    init: |
-      curl -sSf https://pixi.sh/install.sh | bash
-      export PATH="$HOME/.pixi/bin:$PATH"
-      pixi install
-    command: |
-      export PATH="$HOME/.pixi/bin:$PATH"
